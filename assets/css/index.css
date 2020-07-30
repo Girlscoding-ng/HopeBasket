@@ -1,0 +1,13 @@
+header{
+    background-image: url(/assets/img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+.hero-text{
+    padding-top: 230px;
+}
+.btn{
+    background-color: #09CC7F;
+    color: white;
+}
