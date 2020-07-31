@@ -1,0 +1,24 @@
+.btn{
+    background-color: #09CC7F;
+    color: white;
+}
+#hero-text{
+    padding-top: 200px;
+}
+#hero-text p{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #464d65;
+    line-height: 30px;
+    font-weight: 400px;
+}
+#hero-text h1{
+    color: #002D58;
+    font-size: 55px;
+}
+#hero-text .btn{
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+}
