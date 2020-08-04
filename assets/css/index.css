@@ -31,13 +31,13 @@
     left: 100px; */
     text-align: center;
   }
-  .services .title a {
+  /* .services .title a {
     color: #111;
   }
   .c-icon3{
     background-color: #09cc7f;
     color: white;
-  }
+  } */
   .services .icon-box:hover .title a {
     color: #49b5e7;
   }
