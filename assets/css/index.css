@@ -47,3 +47,52 @@ img {
 .c-hero-text .btn:hover{
     background: #08ad6c;
 } 
+ .c-icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+.services .c-icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+}
+.services .title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.title a{
+  text-decoration: none;
+}
+.section-bg {
+  background-color: #f8fcff
+}
+.services .c-icon {
+  /* position: absolute;
+  left: 100px; */
+  text-align: center;
+}
+.services .title a {
+  color: #111;
+}
+.c-icon3{
+  background-color: #09cc7f;
+  color: white;
+}
+.services .icon-box:hover .title a {
+  color: #49b5e7;
+}
+
+.services .description {
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 0;
+}
