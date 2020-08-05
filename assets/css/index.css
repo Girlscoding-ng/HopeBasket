@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-image-banner{
+    width: 55%;
+}
+.c-hero-text{
+    padding-left: 3em;
+}
+.c-hero-text p{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 17px;
+    color: #464d65;
+}
+.c-hero-text h1{
+    font-family: 'Muli', sans-serif;
+    color: #002D58;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: normal;
+
+}
+.c-hero-text .btn{
+    background-color: #09CC7F;
+    color: white;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 16px;
+    border-radius: 2px;
+}
+.c-hero-text .btn:hover{
+    background: #08ad6c;
+} 
+ .c-icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+.services .c-icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+}
+.services .title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.title a{
+  text-decoration: none;
+}
+.section-bg {
+  background-color: #f8fcff
+}
+.services .c-icon {
+  /* position: absolute;
+  left: 100px; */
+  text-align: center;
+}
+.services .title a {
+  color: #111;
+}
+.c-icon3{
+  background-color: #09cc7f;
+  color: white;
+}
+.services .icon-box:hover .title a {
+  color: #49b5e7;
+}
+
+.services .description {
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 0;
+}
