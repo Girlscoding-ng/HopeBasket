@@ -3,6 +3,78 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.home{
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.about{
+  padding: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.contact{
+  padding: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.gallery{
+  padding: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+ul li a{
+  margin-right: 10px;
+  width: 100px;
+}
+.navbar-brand{
+  font-weight: bolder;
+  letter-spacing: 1px;
+  width:28%;
+  padding-top: 1px;
+  
+}
+
+nav{
+  border: 2px solid whitesmoke;
+  box-shadow: 3px 3px whitesmoke;
+  font-family: 'Acme', sans-serif;
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid green; */
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  border-bottom: 2px solid#09CC7F;
+  color: #FFC0CB;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center !important;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0,0,0,.9);
+  text-align: center !important;
+}
+
+.donate-btn{
+  background-color: #09CC7F;
+  color: white !important;
+}
+
+/* END OF NAVIGATION */
+
 img {
     width: 100%;
 }
